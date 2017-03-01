@@ -1,5 +1,5 @@
 FROM java:8-alpine
-MAINTAINER Your Name <you@example.com>
+MAINTAINER blankrain<https://github.com/blankrain>
 
 ADD target/uberjar/dexas.jar /dexas/app.jar
 
