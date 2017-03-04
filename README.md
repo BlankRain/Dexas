@@ -29,3 +29,22 @@ redis-cli get nicejob
 `
 
 the nicejob is the container's hostname ~
+
+
+#### openresty
+
+mkdir ~/work
+cd ~/work
+mkdir logs/ conf/
+
+create conf/nginx.conf
+
+then 
+
+
+PATH=/usr/local/openresty/nginx/sbin:$PATH
+export PATH
+
+Then we start the nginx server with our config file this way:
+
+nginx -p `pwd`/ -c conf/nginx.conf

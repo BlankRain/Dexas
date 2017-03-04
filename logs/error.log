@@ -1,0 +1,306 @@
+2017/03/04 05:15:10 [notice] 35738#0: signal process started
+2017/03/04 05:35:07 [notice] 36022#0: using the "epoll" event method
+2017/03/04 05:35:07 [notice] 36022#0: openresty/1.11.2.2
+2017/03/04 05:35:07 [notice] 36022#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:35:07 [notice] 36022#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:35:07 [notice] 36022#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:35:07 [notice] 36023#0: start worker processes
+2017/03/04 05:35:07 [notice] 36023#0: start worker process 36024
+2017/03/04 05:35:07 [notice] 36023#0: start worker process 36025
+2017/03/04 05:35:21 [error] 36024#0: *1 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2017/03/04 05:35:38 [error] 36024#0: *2 [lua] access_by_lua(redis-route.conf:46):26: no host found for key jack, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2017/03/04 05:36:24 [info] 36024#0: *4 client 127.0.0.1 closed keepalive connection
+2017/03/04 05:36:41 [info] 36024#0: *7 client 127.0.0.1 closed keepalive connection
+2017/03/04 05:37:00 [info] 36024#0: *10 client 127.0.0.1 closed keepalive connection
+2017/03/04 05:37:27 [notice] 36054#0: signal process started
+2017/03/04 05:37:27 [notice] 36023#0: signal 3 (SIGQUIT) received, shutting down
+2017/03/04 05:37:27 [notice] 36024#0: gracefully shutting down
+2017/03/04 05:37:27 [notice] 36024#0: exiting
+2017/03/04 05:37:27 [notice] 36025#0: gracefully shutting down
+2017/03/04 05:37:27 [notice] 36025#0: exiting
+2017/03/04 05:37:27 [notice] 36024#0: exit
+2017/03/04 05:37:27 [notice] 36023#0: signal 17 (SIGCHLD) received
+2017/03/04 05:37:27 [notice] 36023#0: worker process 36024 exited with code 0
+2017/03/04 05:37:27 [notice] 36023#0: signal 29 (SIGIO) received
+2017/03/04 05:37:27 [notice] 36025#0: exit
+2017/03/04 05:37:27 [notice] 36023#0: signal 17 (SIGCHLD) received
+2017/03/04 05:37:27 [notice] 36023#0: worker process 36025 exited with code 0
+2017/03/04 05:37:27 [notice] 36023#0: exit
+2017/03/04 05:40:13 [emerg] 36080#0: directive "server_name" is not terminated by ";" in /home/gloves/Dexas/conf/redis-route.conf:12
+2017/03/04 05:40:27 [emerg] 36085#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/03/04 05:42:07 [notice] 36180#0: using the "epoll" event method
+2017/03/04 05:42:07 [notice] 36180#0: openresty/1.11.2.2
+2017/03/04 05:42:07 [notice] 36180#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:42:07 [notice] 36180#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:42:07 [notice] 36180#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:42:07 [notice] 36181#0: start worker processes
+2017/03/04 05:42:07 [notice] 36181#0: start worker process 36182
+2017/03/04 05:42:07 [notice] 36181#0: start worker process 36183
+2017/03/04 05:42:15 [info] 36183#0: *1 client 127.0.0.1 closed keepalive connection
+2017/03/04 05:44:09 [error] 36183#0: *4 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:44:30 [error] 36183#0: *5 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:44:31 [error] 36183#0: *6 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET /favicon.ico HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:44:31 [error] 36183#0: *7 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET /favicon.ico HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:44:34 [error] 36183#0: *8 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:45:15 [error] 36183#0: *9 [lua] access_by_lua(redis-route.conf:46):4: no domain found, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:47:38 [notice] 36294#0: signal process started
+2017/03/04 05:47:38 [notice] 36181#0: signal 3 (SIGQUIT) received, shutting down
+2017/03/04 05:47:38 [notice] 36182#0: gracefully shutting down
+2017/03/04 05:47:38 [notice] 36182#0: exiting
+2017/03/04 05:47:38 [notice] 36182#0: exit
+2017/03/04 05:47:38 [notice] 36183#0: gracefully shutting down
+2017/03/04 05:47:38 [notice] 36183#0: exiting
+2017/03/04 05:47:38 [notice] 36183#0: exit
+2017/03/04 05:47:38 [notice] 36181#0: signal 17 (SIGCHLD) received
+2017/03/04 05:47:38 [notice] 36181#0: worker process 36183 exited with code 0
+2017/03/04 05:47:38 [notice] 36181#0: signal 29 (SIGIO) received
+2017/03/04 05:47:38 [notice] 36181#0: signal 17 (SIGCHLD) received
+2017/03/04 05:47:38 [notice] 36181#0: worker process 36182 exited with code 0
+2017/03/04 05:47:38 [notice] 36181#0: exit
+2017/03/04 05:47:54 [notice] 36296#0: using the "epoll" event method
+2017/03/04 05:47:54 [notice] 36296#0: openresty/1.11.2.2
+2017/03/04 05:47:54 [notice] 36296#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:47:54 [notice] 36296#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:47:54 [notice] 36296#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:47:54 [notice] 36297#0: start worker processes
+2017/03/04 05:47:54 [notice] 36297#0: start worker process 36298
+2017/03/04 05:47:54 [notice] 36297#0: start worker process 36299
+2017/03/04 05:48:04 [error] 36299#0: *1 [lua] access_by_lua(redis-route.conf:46):26: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:48:08 [error] 36299#0: *3 [lua] access_by_lua(redis-route.conf:46):26: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:49:47 [notice] 36314#0: signal process started
+2017/03/04 05:49:47 [notice] 36297#0: signal 3 (SIGQUIT) received, shutting down
+2017/03/04 05:49:47 [notice] 36298#0: gracefully shutting down
+2017/03/04 05:49:47 [notice] 36298#0: exiting
+2017/03/04 05:49:47 [notice] 36299#0: gracefully shutting down
+2017/03/04 05:49:47 [notice] 36299#0: exiting
+2017/03/04 05:49:47 [notice] 36299#0: exit
+2017/03/04 05:49:47 [notice] 36297#0: signal 17 (SIGCHLD) received
+2017/03/04 05:49:47 [notice] 36297#0: worker process 36299 exited with code 0
+2017/03/04 05:49:47 [notice] 36297#0: signal 29 (SIGIO) received
+2017/03/04 05:49:47 [notice] 36298#0: exit
+2017/03/04 05:49:47 [notice] 36297#0: signal 17 (SIGCHLD) received
+2017/03/04 05:49:47 [notice] 36297#0: worker process 36298 exited with code 0
+2017/03/04 05:49:47 [notice] 36297#0: exit
+2017/03/04 05:49:51 [notice] 36316#0: using the "epoll" event method
+2017/03/04 05:49:51 [notice] 36316#0: openresty/1.11.2.2
+2017/03/04 05:49:51 [notice] 36316#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:49:51 [notice] 36316#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:49:51 [notice] 36316#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:49:51 [notice] 36317#0: start worker processes
+2017/03/04 05:49:51 [notice] 36317#0: start worker process 36318
+2017/03/04 05:49:51 [notice] 36317#0: start worker process 36319
+2017/03/04 05:50:03 [error] 36319#0: *1 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:50:49 [notice] 36329#0: signal process started
+2017/03/04 05:50:49 [notice] 36317#0: signal 3 (SIGQUIT) received, shutting down
+2017/03/04 05:50:49 [notice] 36318#0: gracefully shutting down
+2017/03/04 05:50:49 [notice] 36318#0: exiting
+2017/03/04 05:50:49 [notice] 36318#0: exit
+2017/03/04 05:50:49 [notice] 36319#0: gracefully shutting down
+2017/03/04 05:50:49 [notice] 36319#0: exiting
+2017/03/04 05:50:49 [notice] 36319#0: exit
+2017/03/04 05:50:49 [notice] 36317#0: signal 17 (SIGCHLD) received
+2017/03/04 05:50:49 [notice] 36317#0: worker process 36319 exited with code 0
+2017/03/04 05:50:49 [notice] 36317#0: signal 29 (SIGIO) received
+2017/03/04 05:50:49 [notice] 36317#0: signal 17 (SIGCHLD) received
+2017/03/04 05:50:49 [notice] 36317#0: worker process 36318 exited with code 0
+2017/03/04 05:50:49 [notice] 36317#0: exit
+2017/03/04 05:51:08 [notice] 36332#0: using the "epoll" event method
+2017/03/04 05:51:08 [notice] 36332#0: openresty/1.11.2.2
+2017/03/04 05:51:08 [notice] 36332#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:51:08 [notice] 36332#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:51:08 [notice] 36332#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:51:08 [notice] 36333#0: start worker processes
+2017/03/04 05:51:08 [notice] 36333#0: start worker process 36334
+2017/03/04 05:51:08 [notice] 36333#0: start worker process 36335
+2017/03/04 05:51:17 [error] 36335#0: *1 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:51:49 [notice] 36342#0: signal process started
+2017/03/04 05:51:49 [notice] 36333#0: signal 3 (SIGQUIT) received, shutting down
+2017/03/04 05:51:49 [notice] 36334#0: gracefully shutting down
+2017/03/04 05:51:49 [notice] 36334#0: exiting
+2017/03/04 05:51:49 [notice] 36334#0: exit
+2017/03/04 05:51:49 [notice] 36333#0: signal 17 (SIGCHLD) received
+2017/03/04 05:51:49 [notice] 36333#0: worker process 36334 exited with code 0
+2017/03/04 05:51:49 [notice] 36335#0: gracefully shutting down
+2017/03/04 05:51:49 [notice] 36335#0: exiting
+2017/03/04 05:51:49 [notice] 36335#0: exit
+2017/03/04 05:51:49 [notice] 36333#0: signal 29 (SIGIO) received
+2017/03/04 05:51:49 [notice] 36333#0: signal 17 (SIGCHLD) received
+2017/03/04 05:51:49 [notice] 36333#0: worker process 36335 exited with code 0
+2017/03/04 05:51:49 [notice] 36333#0: exit
+2017/03/04 05:52:21 [notice] 36345#0: using the "epoll" event method
+2017/03/04 05:52:21 [notice] 36345#0: openresty/1.11.2.2
+2017/03/04 05:52:21 [notice] 36345#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/03/04 05:52:21 [notice] 36345#0: OS: Linux 4.4.0-64-generic
+2017/03/04 05:52:21 [notice] 36345#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/03/04 05:52:21 [notice] 36346#0: start worker processes
+2017/03/04 05:52:21 [notice] 36346#0: start worker process 36347
+2017/03/04 05:52:21 [notice] 36346#0: start worker process 36348
+2017/03/04 05:52:26 [error] 36348#0: *1 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 05:53:08 [error] 36348#0: *3 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:00:44 [notice] 36396#0: signal process started
+2017/03/04 06:00:44 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:00:44 [notice] 36346#0: reconfiguring
+2017/03/04 06:00:44 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:00:44 [notice] 36346#0: start worker processes
+2017/03/04 06:00:44 [notice] 36346#0: start worker process 36397
+2017/03/04 06:00:44 [notice] 36346#0: start worker process 36398
+2017/03/04 06:00:45 [notice] 36347#0: gracefully shutting down
+2017/03/04 06:00:45 [notice] 36347#0: exiting
+2017/03/04 06:00:45 [notice] 36347#0: exit
+2017/03/04 06:00:45 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:00:45 [notice] 36346#0: worker process 36347 exited with code 0
+2017/03/04 06:00:45 [notice] 36348#0: gracefully shutting down
+2017/03/04 06:00:45 [notice] 36348#0: exiting
+2017/03/04 06:00:45 [notice] 36348#0: exit
+2017/03/04 06:00:45 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:00:45 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:00:45 [notice] 36346#0: worker process 36348 exited with code 0
+2017/03/04 06:00:45 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:00:50 [error] 36397#0: *5 failed to load inlined Lua code: access_by_lua(redis-route.conf:47):26: unexpected symbol near '$', client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:01:44 [notice] 36414#0: signal process started
+2017/03/04 06:01:44 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:01:44 [notice] 36346#0: reconfiguring
+2017/03/04 06:01:44 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:01:44 [notice] 36346#0: start worker processes
+2017/03/04 06:01:44 [notice] 36346#0: start worker process 36415
+2017/03/04 06:01:44 [notice] 36346#0: start worker process 36416
+2017/03/04 06:01:44 [notice] 36397#0: gracefully shutting down
+2017/03/04 06:01:44 [notice] 36397#0: exiting
+2017/03/04 06:01:44 [notice] 36397#0: exit
+2017/03/04 06:01:44 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:01:44 [notice] 36346#0: worker process 36397 exited with code 0
+2017/03/04 06:01:44 [notice] 36398#0: gracefully shutting down
+2017/03/04 06:01:44 [notice] 36398#0: exiting
+2017/03/04 06:01:44 [notice] 36398#0: exit
+2017/03/04 06:01:44 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:01:44 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:01:44 [notice] 36346#0: worker process 36398 exited with code 0
+2017/03/04 06:01:44 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:01:54 [error] 36415#0: *6 [lua] access_by_lua(redis-route.conf:47):26: lalallanil, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:01:54 [error] 36415#0: *6 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:03:52 [notice] 36427#0: signal process started
+2017/03/04 06:03:52 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:03:52 [notice] 36346#0: reconfiguring
+2017/03/04 06:03:52 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:03:52 [notice] 36346#0: start worker processes
+2017/03/04 06:03:52 [notice] 36346#0: start worker process 36428
+2017/03/04 06:03:52 [notice] 36346#0: start worker process 36429
+2017/03/04 06:03:52 [notice] 36415#0: gracefully shutting down
+2017/03/04 06:03:52 [notice] 36415#0: exiting
+2017/03/04 06:03:52 [notice] 36415#0: exit
+2017/03/04 06:03:52 [notice] 36416#0: gracefully shutting down
+2017/03/04 06:03:52 [notice] 36416#0: exiting
+2017/03/04 06:03:52 [notice] 36416#0: exit
+2017/03/04 06:03:52 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:03:52 [notice] 36346#0: worker process 36416 exited with code 0
+2017/03/04 06:03:52 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:03:52 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:03:52 [notice] 36346#0: worker process 36415 exited with code 0
+2017/03/04 06:03:52 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:03:59 [error] 36428#0: *8 [lua] access_by_lua(redis-route.conf:47):26: lalalla8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:03:59 [error] 36428#0: *8 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:05:53 [notice] 36452#0: signal process started
+2017/03/04 06:05:53 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:05:53 [notice] 36346#0: reconfiguring
+2017/03/04 06:05:53 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:05:53 [notice] 36346#0: start worker processes
+2017/03/04 06:05:53 [notice] 36346#0: start worker process 36453
+2017/03/04 06:05:53 [notice] 36346#0: start worker process 36454
+2017/03/04 06:05:54 [notice] 36428#0: gracefully shutting down
+2017/03/04 06:05:54 [notice] 36428#0: exiting
+2017/03/04 06:05:54 [notice] 36429#0: gracefully shutting down
+2017/03/04 06:05:54 [notice] 36429#0: exiting
+2017/03/04 06:05:54 [notice] 36429#0: exit
+2017/03/04 06:05:54 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:05:54 [notice] 36346#0: worker process 36429 exited with code 0
+2017/03/04 06:05:54 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:05:54 [notice] 36428#0: exit
+2017/03/04 06:05:54 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:05:54 [notice] 36346#0: worker process 36428 exited with code 0
+2017/03/04 06:05:54 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:06:05 [error] 36453#0: *10 [lua] access_by_lua(redis-route.conf:47):26: lalalla8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:06:05 [error] 36453#0: *10 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:08:00 [notice] 36464#0: signal process started
+2017/03/04 06:08:00 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:08:00 [notice] 36346#0: reconfiguring
+2017/03/04 06:08:00 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:08:00 [notice] 36346#0: start worker processes
+2017/03/04 06:08:00 [notice] 36346#0: start worker process 36465
+2017/03/04 06:08:00 [notice] 36346#0: start worker process 36466
+2017/03/04 06:08:00 [notice] 36453#0: gracefully shutting down
+2017/03/04 06:08:00 [notice] 36453#0: exiting
+2017/03/04 06:08:00 [notice] 36453#0: exit
+2017/03/04 06:08:00 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:08:00 [notice] 36346#0: worker process 36453 exited with code 0
+2017/03/04 06:08:00 [notice] 36454#0: gracefully shutting down
+2017/03/04 06:08:00 [notice] 36454#0: exiting
+2017/03/04 06:08:00 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:08:00 [notice] 36454#0: exit
+2017/03/04 06:08:00 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:08:00 [notice] 36346#0: worker process 36454 exited with code 0
+2017/03/04 06:08:00 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:08:08 [error] 36465#0: *12 [lua] access_by_lua(redis-route.conf:47):26: lalalla8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:08:08 [error] 36465#0: *12 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:08:38 [notice] 36474#0: signal process started
+2017/03/04 06:08:38 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:08:38 [notice] 36346#0: reconfiguring
+2017/03/04 06:08:38 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:08:38 [notice] 36346#0: start worker processes
+2017/03/04 06:08:38 [notice] 36346#0: start worker process 36475
+2017/03/04 06:08:38 [notice] 36346#0: start worker process 36476
+2017/03/04 06:08:38 [notice] 36465#0: gracefully shutting down
+2017/03/04 06:08:38 [notice] 36465#0: exiting
+2017/03/04 06:08:38 [notice] 36465#0: exit
+2017/03/04 06:08:38 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:08:38 [notice] 36346#0: worker process 36465 exited with code 0
+2017/03/04 06:08:38 [notice] 36466#0: gracefully shutting down
+2017/03/04 06:08:38 [notice] 36466#0: exiting
+2017/03/04 06:08:38 [notice] 36466#0: exit
+2017/03/04 06:08:38 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:08:38 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:08:38 [notice] 36346#0: worker process 36466 exited with code 0
+2017/03/04 06:08:38 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:08:45 [error] 36475#0: *14 [lua] access_by_lua(redis-route.conf:47):26: lalalla8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:08:45 [error] 36475#0: *14 [lua] access_by_lua(redis-route.conf:47):27: no host found for key nicejob.dexas:8080, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:09:14 [notice] 36481#0: signal process started
+2017/03/04 06:09:14 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:09:14 [notice] 36346#0: reconfiguring
+2017/03/04 06:09:14 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:09:14 [notice] 36346#0: start worker processes
+2017/03/04 06:09:14 [notice] 36346#0: start worker process 36482
+2017/03/04 06:09:14 [notice] 36346#0: start worker process 36483
+2017/03/04 06:09:14 [notice] 36475#0: gracefully shutting down
+2017/03/04 06:09:14 [notice] 36475#0: exiting
+2017/03/04 06:09:14 [notice] 36475#0: exit
+2017/03/04 06:09:14 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:09:14 [notice] 36346#0: worker process 36475 exited with code 0
+2017/03/04 06:09:14 [notice] 36476#0: gracefully shutting down
+2017/03/04 06:09:14 [notice] 36476#0: exiting
+2017/03/04 06:09:14 [notice] 36476#0: exit
+2017/03/04 06:09:14 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:09:14 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:09:14 [notice] 36346#0: worker process 36476 exited with code 0
+2017/03/04 06:09:14 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:09:21 [error] 36482#0: *16 lua entry thread aborted: runtime error: access_by_lua(redis-route.conf:47):7: attempt to perform arithmetic on a string value
+stack traceback:
+coroutine 0:
+	access_by_lua(redis-route.conf:47): in function <access_by_lua(redis-route.conf:47):1>, client: 127.0.0.1, server: *.dexas, request: "GET / HTTP/1.1", host: "nicejob.dexas:8080"
+2017/03/04 06:10:48 [notice] 36492#0: signal process started
+2017/03/04 06:10:48 [notice] 36346#0: signal 1 (SIGHUP) received, reconfiguring
+2017/03/04 06:10:48 [notice] 36346#0: reconfiguring
+2017/03/04 06:10:48 [notice] 36346#0: using the "epoll" event method
+2017/03/04 06:10:48 [notice] 36346#0: start worker processes
+2017/03/04 06:10:48 [notice] 36346#0: start worker process 36493
+2017/03/04 06:10:48 [notice] 36346#0: start worker process 36494
+2017/03/04 06:10:48 [notice] 36482#0: gracefully shutting down
+2017/03/04 06:10:48 [notice] 36482#0: exiting
+2017/03/04 06:10:48 [notice] 36482#0: exit
+2017/03/04 06:10:48 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:10:48 [notice] 36346#0: worker process 36482 exited with code 0
+2017/03/04 06:10:48 [notice] 36483#0: gracefully shutting down
+2017/03/04 06:10:48 [notice] 36483#0: exiting
+2017/03/04 06:10:48 [notice] 36483#0: exit
+2017/03/04 06:10:48 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/04 06:10:48 [notice] 36346#0: signal 17 (SIGCHLD) received
+2017/03/04 06:10:48 [notice] 36346#0: worker process 36483 exited with code 0
+2017/03/04 06:10:48 [notice] 36346#0: signal 29 (SIGIO) received
