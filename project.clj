@@ -23,7 +23,8 @@
                  [ring-webjars "0.1.1"]
                  [ring/ring-core "1.5.1"]
                  [ring/ring-defaults "0.2.3"]
-                 [selmer "1.10.6"]]
+                 [selmer "1.10.6"]
+                 [k2nr/docker "0.0.2"]]
 
   :min-lein-version "2.0.0"
 

@@ -12,4 +12,4 @@
 ;;;; 开辟资源,运行镜像
 (defn rundockerForcustomer [customer  docker-file])
 
-
+(def cli (k2nr.docker.core/make-client "127.0.0.1:4243"))
