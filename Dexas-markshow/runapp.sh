@@ -1,2 +1,3 @@
-echo "hi,$app ~ she is free style just for me." > /var/www/index.html
-httpd -h /var/www
+echo "Run App"
+
+node /markshow/bin/markshow start -p 80 -d /markshowppts -H 0.0.0.0 &
