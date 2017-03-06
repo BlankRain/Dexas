@@ -304,3 +304,19 @@ coroutine 0:
 2017/03/04 06:10:48 [notice] 36346#0: signal 17 (SIGCHLD) received
 2017/03/04 06:10:48 [notice] 36346#0: worker process 36483 exited with code 0
 2017/03/04 06:10:48 [notice] 36346#0: signal 29 (SIGIO) received
+2017/03/06 03:27:19 [alert] 4259#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 03:27:19 [emerg] 4259#0: unexpected "}" in /home/gloves/Dexas/conf/redis-apiserver.conf:49
+2017/03/06 03:28:14 [alert] 4294#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 03:28:14 [emerg] 4294#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2017/03/06 03:28:49 [alert] 4306#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 03:30:09 [error] 4308#0: *1 failed to load external Lua file "/home/gloves/Dexas/lua/access_check.lua": cannot open /home/gloves/Dexas/lua/access_check.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 03:30:10 [error] 4308#0: *1 open() "/home/gloves/Dexas/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 03:30:10 [error] 4308#0: *1 open() "/home/gloves/Dexas/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 03:30:51 [alert] 4457#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 03:30:51 [notice] 4457#0: signal process started
+2017/03/06 03:31:06 [notice] 4459#0: signal process started
+2017/03/06 03:31:06 [error] 4459#0: open() "/home/gloves/Dexas/logs/nginx.pid" failed (2: No such file or directory)
+2017/03/06 03:31:35 [alert] 4466#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 03:32:21 [error] 4468#0: *1 failed to load external Lua file "/home/gloves/Dexas/lualu/b.lua": cannot open /home/gloves/Dexas/lualu/b.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /dexas/b.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 03:32:29 [error] 4468#0: *1 failed to load external Lua file "/home/gloves/Dexas/lualu/ok.lua": cannot open /home/gloves/Dexas/lualu/ok.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /dexas/ok.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 03:33:05 [error] 4468#0: *1 open() "/home/gloves/Dexas/html/lua/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /lua/index.html HTTP/1.1", host: "127.0.0.1:8080"
