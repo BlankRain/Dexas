@@ -320,3 +320,76 @@ coroutine 0:
 2017/03/06 03:32:21 [error] 4468#0: *1 failed to load external Lua file "/home/gloves/Dexas/lualu/b.lua": cannot open /home/gloves/Dexas/lualu/b.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /dexas/b.html HTTP/1.1", host: "127.0.0.1:8080"
 2017/03/06 03:32:29 [error] 4468#0: *1 failed to load external Lua file "/home/gloves/Dexas/lualu/ok.lua": cannot open /home/gloves/Dexas/lualu/ok.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /dexas/ok.html HTTP/1.1", host: "127.0.0.1:8080"
 2017/03/06 03:33:05 [error] 4468#0: *1 open() "/home/gloves/Dexas/html/lua/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /lua/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:05:05 [alert] 5696#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:05:05 [notice] 5696#0: signal process started
+2017/03/06 04:05:05 [alert] 4467#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:05:16 [error] 5697#0: *3 lua entry thread aborted: runtime error: /home/gloves/Dexas/lualu/index.lua:1: module 'resty.template' not found:
+	no field package.preload['resty.template']
+	no file 'lua/resty/template.lua'
+	no file '/lualu/resty/template.lua'
+	no file '/usr/local/openresty/site/lualib/resty/template.lua'
+	no file '/usr/local/openresty/site/lualib/resty/template/init.lua'
+	no file '/usr/local/openresty/lualib/resty/template.lua'
+	no file '/usr/local/openresty/lualib/resty/template/init.lua'
+	no file './resty/template.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta2/resty/template.lua'
+	no file '/usr/local/share/lua/5.1/resty/template.lua'
+	no file '/usr/local/share/lua/5.1/resty/template/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/template.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/template/init.lua'
+	no file '/usr/local/openresty/site/lualib/resty/template.so'
+	no file '/usr/local/openresty/lualib/resty/template.so'
+	no file './resty/template.so'
+	no file '/usr/local/lib/lua/5.1/resty/template.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/template.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/resty.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/gloves/Dexas/lualu/index.lua:1: in function </home/gloves/Dexas/lualu/index.lua:1>, client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:12:49 [error] 5697#0: *6 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:2: unexpected symbol near '*', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:13:15 [error] 5697#0: *7 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:13:17 [error] 5697#0: *8 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:14:43 [error] 5697#0: *9 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:9: unexpected symbol near ')', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:15:28 [error] 5697#0: *10 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:9: unexpected symbol near ')', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:15:40 [error] 5697#0: *11 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:9: unexpected symbol near ')', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:16:25 [error] 5697#0: *12 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:9: unexpected symbol near ')', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:16:26 [error] 5697#0: *13 failed to load external Lua file "/home/gloves/Dexas/lualu/index.lua": /home/gloves/Dexas/lualu/index.lua:9: unexpected symbol near ')', client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:19:36 [alert] 6050#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:19:36 [emerg] 6050#0: directive "set" is not terminated by ";" in /home/gloves/Dexas/conf/redis-apiserver.conf:20
+2017/03/06 04:20:03 [alert] 6060#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:20:03 [notice] 6060#0: signal process started
+2017/03/06 04:20:03 [alert] 4467#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:20:09 [error] 6061#0: *15 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:20:12 [error] 6061#0: *15 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:20:36 [error] 6061#0: *15 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:20:44 [error] 6061#0: *15 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:25:07 [error] 6061#0: *16 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:26:03 [error] 6061#0: *16 open() "/home/gloves/Dexas/html./views/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.html", host: "127.0.0.1:8080"
+2017/03/06 04:26:03 [error] 6061#0: *16 open() "/home/gloves/Dexas/html./views/header.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/header.html", host: "127.0.0.1:8080"
+2017/03/06 04:26:03 [error] 6061#0: *16 open() "/home/gloves/Dexas/html./views/footer.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/footer.html", host: "127.0.0.1:8080"
+2017/03/06 04:26:03 [error] 6061#0: *16 open() "/home/gloves/Dexas/html/dexas/js/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/js/jquery.min.js HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/dexas/index.html"
+2017/03/06 04:44:02 [error] 6061#0: *18 open() "/home/gloves/Dexas/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:44:17 [error] 6061#0: *19 open() "/home/gloves/Dexas/html./views/index.view" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.view", host: "127.0.0.1:8080"
+2017/03/06 04:44:17 [error] 6061#0: *19 open() "/home/gloves/Dexas/html./views/header.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/header.html", host: "127.0.0.1:8080"
+2017/03/06 04:44:17 [error] 6061#0: *19 open() "/home/gloves/Dexas/html./views/footer.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/footer.html", host: "127.0.0.1:8080"
+2017/03/06 04:47:01 [error] 6061#0: *20 open() "/home/gloves/Dexas/html/index.view" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /index.view HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:47:05 [error] 6061#0: *21 open() "/home/gloves/Dexas/html./views/index.view" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.view", host: "127.0.0.1:8080"
+2017/03/06 04:47:07 [error] 6061#0: *22 open() "/home/gloves/Dexas/html./views/index.view" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/index.html HTTP/1.1", subrequest: "./views/index.view", host: "127.0.0.1:8080"
+2017/03/06 04:48:42 [alert] 7818#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:48:42 [emerg] 7818#0: invalid number of arguments in "set" directive in /home/gloves/Dexas/conf/redis-apiserver.conf:17
+2017/03/06 04:49:38 [alert] 7831#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:49:38 [notice] 7831#0: signal process started
+2017/03/06 04:49:38 [alert] 4467#0: lua_code_cache is off; this will hurt performance in /home/gloves/Dexas/conf/redis-apiserver.conf:12
+2017/03/06 04:49:48 [error] 7832#0: *23 open() "/home/gloves/Dexas/html/index.view" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /index.view HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:49:53 [error] 7832#0: *23 open() "/home/gloves/Dexas/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /index.html HTTP/1.1", host: "127.0.0.1:8080"
+2017/03/06 04:53:25 [error] 7832#0: *25 open() "/home/gloves/Dexas/html/dexas/js/node_moudules/jquery/dist/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/js/node_moudules/jquery/dist/jquery.min.js HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/dexas/index.html"
+2017/03/06 04:53:32 [error] 7832#0: *25 open() "/home/gloves/Dexas/html/dexas/js/node_moudules/jquery/dist/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /dexas/js/node_moudules/jquery/dist/jquery.min.js HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/dexas/index.html"
+2017/03/06 04:56:03 [error] 7832#0: *26 open() "/home/gloves/Dexas/html/js/node_moudules/jquery/dist/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /js/node_moudules/jquery/dist/jquery.min.js HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/dexas/index.html"
+2017/03/06 04:57:18 [error] 7832#0: *26 open() "/home/gloves/Dexas/html/js/node_moudules/jquery/dist/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /js/node_moudules/jquery/dist/jquery.min.js HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/index.html"

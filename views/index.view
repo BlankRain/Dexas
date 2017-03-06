@@ -1,0 +1,11 @@
+{(header.html)}
+<h1>{{message}}</h1>
+<ul>
+  {% for _, name in ipairs(names) do %}
+  <li>{{name}}</li>
+  {% end %}
+</ul>
+<script>
+$('li').each(console.log);
+</script>
+{(footer.html)}
